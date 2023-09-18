@@ -34,6 +34,7 @@ qt_add_qml_module(appmines-seeker
     QML_FILES ${QML_FILES}
     RESOURCES ${IMAGE_FILES}
     RESOURCES ${SOUND_FILES}
+    NO_RESOURCE_TARGET_PATH
 )
 
 qt_add_resources(appmines-seeker resources

@@ -93,7 +93,8 @@ int main(int argc, char *argv[])
 
     StartupProgress sp;
     qv.engine()->rootContext()->setContextProperty("startupManager", &sp);
-    qv.setSource(QUrl(QStringLiteral("qrc:/mines-seeker/Loading.qml")));
+    //qv.setSource(QUrl(QStringLiteral("qrc:/mines-seeker/Loading.qml")));
+    qv.setSource(QUrl(QStringLiteral("qrc:/Loading.qml")));
     qv.show();
 
     QObject::connect( &sp, &StartupProgress::progressChanged, [&](double value) {
@@ -164,7 +165,8 @@ int main(int argc, char *argv[])
 
         sp.setProgressMessage(QObject::tr("Loading UI..."));
 
-        const QUrl url(u"qrc:/mines-seeker/Main.qml"_qs);
+        //const QUrl url(u"qrc:/mines-seeker/Main.qml"_qs);
+        const QUrl url(u"qrc:/Main.qml"_qs);
         engine.load(url);
         if (engine.rootObjects().isEmpty()) {
             QGuiApplication::exit(-1);
