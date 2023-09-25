@@ -1,85 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<TS version="2.1" language="ko_KR">
 <context>
     <name>About</name>
     <message>
+        <location filename="About.qml" line="14"/>
+        <source>About %1</source>
+        <oldsource>About </oldsource>
+        <translation>%1 에 대하여</translation>
+    </message>
+    <message>
         <location filename="About.qml" line="32"/>
         <source>&lt;i&gt;This program is under the &lt;b&gt;GPL v2&lt;/b&gt;.&lt;/i&gt;&lt;br&gt;This program is distributed in the hope that it will be useful, but &lt;b&gt;&lt;i&gt;without any warranty&lt;/i&gt;&lt;/b&gt;; without even the implied warranty of &lt;b&gt;&lt;i&gt;merchantability&lt;/i&gt;&lt;/b&gt; or &lt;b&gt;&lt;i&gt;fitness for a particular purpose&lt;/i&gt;&lt;/b&gt;. See the &lt;i&gt;GNU General Public License&lt;/i&gt; for more details.&lt;br&gt;&lt;br&gt;You should have received a copy of the &lt;i&gt;GNU General Public License&lt;/i&gt; along with this program. If not, see &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;.&lt;br&gt;</source>
-        <translation>&lt;i&gt;Este programa está bajo la &lt;b&gt;GPL v2&lt;/b&gt;.&lt;/i&gt;&lt;br&gt;Este programa es distribuido con la esperanza de que sea útil, pero &lt;b&gt;&lt;i&gt;sin ninguna garantía&lt;/i&gt;&lt;/b&gt;; incluso sin garantía implícta de &lt;b&gt;&lt;i&gt;mercanciabilidad&lt;/i&gt;&lt;/b&gt; o &lt;b&gt;&lt;i&gt;idoneidad para un propósito en particular&lt;/i&gt;&lt;/b&gt;. Vea la &lt;i&gt;GNU General Public License&lt;/i&gt; para más detalles.&lt;br&gt;&lt;br&gt;Usted debe haber recibido una copia de la &lt;i&gt;GNU General Public License&lt;/i&gt; junto a este programa. Si no, vea &lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;.&lt;br&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="40"/>
         <source>&lt;br&gt;&lt;b&gt;Contact info: &lt;/b&gt;&lt;i&gt;&lt;a href=&quot;%1&quot;&gt;thecrowporation@gmail.com&lt;/a&gt;.&lt;/i&gt;&lt;br&gt;</source>
-        <translation>&lt;br&gt;&lt;b&gt;Contacto: &lt;/b&gt;&lt;i&gt;&lt;a href=&quot;%1&quot;&gt;thecrowporation@gmail.com&lt;/a&gt;.&lt;/i&gt;&lt;br&gt;</translation>
-    </message>
-    <message>
-        <location filename="About.qml" line="67"/>
-        <source>&lt;b&gt;v0.3&lt;/b&gt;a [Oct 4, 2018]&lt;br&gt;&lt;b&gt;Third &lt;i&gt;alpha&lt;/i&gt; version&lt;/b&gt;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Score database is now cryptographically signed&lt;br&gt;&lt;br&gt;</source>
-        <translation>&lt;b&gt;v0.3&lt;/b&gt;a [Oct 4, 2018]&lt;br&gt;&lt;b&gt;Tercera versión &lt;i&gt;alpha&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; La base de datos de records está ahora firmada criptográficamente&lt;br&gt;&lt;br&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="41"/>
         <source>&lt;b&gt;v1.0.1&lt;/b&gt; [Feb 2, 2019]&lt;br&gt;&lt;b&gt;Initial version - Patch 1&lt;/b&gt;&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Buttons can be clicked when holding and releasing (see &lt;a href=&quot;https://bugreports.qt.io/browse/QTBUG-72811&quot;&gt;QTBUG-72811&lt;/a&gt;)&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Supressed an error during startup&lt;br&gt;&lt;br&gt;</source>
-        <translation>&lt;b&gt;v1.0.1&lt;/b&gt; [Feb 2, 2019]&lt;br&gt;&lt;b&gt;Versión inicial - Parche 1&lt;/b&gt;&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Los botones reaccionan a un clic tras ser presionados un rato (vea &lt;a href=&quot;https://bugreports.qt.io/browse/QTBUG-72811&quot;&gt;QTBUG-72811&lt;/a&gt;)&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Suprimido un error durante el arranque&lt;br&gt;&lt;br&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="46"/>
         <source>&lt;b&gt;v1.0&lt;/b&gt; [Jan 1, 2019]&lt;br&gt;&lt;b&gt;Initial version&lt;/b&gt;&lt;br&gt;&lt;i&gt;   Rmv:&lt;/i&gt; &lt;u&gt;Removed cryptographical protection from the database due to bugs&lt;/u&gt;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added mines counter&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added a progress bar&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added internationalization support&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added spanish translation&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added splash screen&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added more sound effects&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added a busy indicator&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added &lt;i&gt;Preferences&lt;/i&gt; menu&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added option to reveal siblings with a single click&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added company logo&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Now the database access is asynchronous&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Improved accesibility&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Improved GUI and animations&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Improved multimedia support&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Improved UI performance&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Fixed a board bug that causes an overflow&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Minor bug fixes&lt;br&gt;&lt;br&gt;</source>
-        <translation>&lt;b&gt;v1.0&lt;/b&gt; [Ene 1, 2019]&lt;br&gt;&lt;b&gt;Versión inicial&lt;/b&gt;&lt;br&gt;&lt;i&gt;   Rmv:&lt;/i&gt; &lt;u&gt;Removida la protección criptográfica de la base de datos debido a errores&lt;/u&gt;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadido contador de minas&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadida una barra de progreso&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadido soporte para internacionalización&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadida traducción al español&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadida &quot;splash screen&quot; &lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadidos más efectos de sonido&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadido un indicador de &quot;ocupado&quot;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Menú &lt;i&gt;Preferencias&lt;/i&gt;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadida opción para revelar celdas adyacentes con un solo clic&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Añadido el logo de la compañía&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Ahora el acceso a la base de datos es asincrónico&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Mejorada la accesiblidad&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Mejorada la interfaz y las animaciones&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Mejorado el soporte multimedia&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Mejorado el rendimiento de la interfaz&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Corregido un error que causaba un desbordamiento&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Corrección de errores menores&lt;br&gt;&lt;br&gt;</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="About.qml" line="67"/>
+        <source>&lt;b&gt;v0.3&lt;/b&gt;a [Oct 4, 2018]&lt;br&gt;&lt;b&gt;Third &lt;i&gt;alpha&lt;/i&gt; version&lt;/b&gt;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Score database is now cryptographically signed&lt;br&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="71"/>
         <source>&lt;b&gt;v0.2&lt;/b&gt;a [Oct 2, 2018]&lt;br&gt;&lt;b&gt;Second &lt;i&gt;alpha&lt;/i&gt; version&lt;/b&gt;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Drastically improved GUI and animations&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added scores&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Save and restore the application state&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Added sound effects&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Several bug fixes&lt;br&gt;&lt;br&gt;</source>
-        <translation>&lt;b&gt;v0.2&lt;/b&gt;a [Oct 2, 2018]&lt;br&gt;&lt;b&gt;Segunda versión  &lt;i&gt;alpha&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; GUI y animaciones mejoradas drásticamente&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Agregados récords&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Guardado y carga del estado de la aplicación&lt;br&gt;&lt;i&gt;   New:&lt;/i&gt; Efectos de sonido&lt;br&gt;&lt;i&gt;   Fix:&lt;/i&gt; Corrección de errores&lt;br&gt;&lt;br&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="79"/>
         <source>&lt;b&gt;v0.1&lt;/b&gt;a [Sept 24, 2018]&lt;br&gt;&lt;b&gt;First &lt;i&gt;alpha&lt;/i&gt; version&lt;/b&gt;&lt;br&gt;</source>
-        <translation>&lt;b&gt;v0.1&lt;/b&gt;a [Sept 24, 2018]&lt;br&gt;&lt;b&gt;Primera versión &lt;i&gt;alpha&lt;/i&gt;&lt;/b&gt;&lt;br&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="81"/>
         <source>Special thanks to &lt;i&gt;Edel&lt;/i&gt;, who figure out how to discover surrounded cells and how to resize the board properly.&lt;br&gt;Thanks to the users &lt;i&gt;littlerobotsoundfactory&lt;/i&gt;, &lt;i&gt;fins&lt;/i&gt;, and &lt;i&gt;mativve&lt;/i&gt; from &lt;a href=&quot;%1&quot;&gt;freesound.com&lt;/a&gt; for their free fanzy sounds effects.&lt;br&gt;</source>
-        <translation>Un agradecimiento especial a &lt;i&gt;Edel&lt;/i&gt;, quien se figuró cómo descubrir las celdas adyacentes y cómo redimensionar apropiadamente el tablero. &lt;br&gt;Gracias a los usuarios &lt;i&gt;littlerobotsoundfactory&lt;/i&gt;, &lt;i&gt;fins&lt;/i&gt;, y &lt;i&gt;mativve&lt;/i&gt; de &lt;a href=&quot;%1&quot;&gt;freesound.com&lt;/a&gt; por sus divertidos y libres efectos de sonido.&lt;br&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="158"/>
         <source>About</source>
-        <translation>Acerca de</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="167"/>
         <source>Changelog</source>
-        <translation>Cambios</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="About.qml" line="176"/>
         <source>Greetings</source>
-        <translation>Gracias</translation>
-    </message>
-    <message>
-        <location filename="About.qml" line="13"/>
-        <source>About </source>
-        <translation>Acerca de </translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>AboutQt</name>
     <message>
-        <location filename="AboutQt.qml" line="12"/>
+        <location filename="AboutQt.qml" line="13"/>
         <source>About Qt</source>
-        <translation>Acerca de Qt</translation>
-    </message>
-    <message>
-        <location filename="AboutQt.qml" line="64"/>
-        <source>&lt;p&gt;&lt;b&gt;This program uses Qt version %1.&lt;/b&gt;&lt;/p&gt;&lt;br&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="AboutQt.qml" line="65"/>
+        <source>&lt;p&gt;&lt;b&gt;This program uses Qt version %1.&lt;/b&gt;&lt;/p&gt;&lt;br&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="AboutQt.qml" line="66"/>
         <source>&lt;p&gt;Qt is a &lt;i&gt;C++ toolkit for cross-platform application development&lt;/i&gt;.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop and mobile operating systems. It is also available for embedded Linux and other embedded operating systems.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Qt offers both &lt;i&gt;commercial&lt;/i&gt; and &lt;i&gt;opensource&lt;/i&gt; licences. Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;i&gt;Copyright © %1 The Qt Company Ltd&lt;/i&gt; and other contributors. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;&lt;br&gt;</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -87,88 +88,88 @@
     <message>
         <location filename="DialogConfirmMode.qml" line="12"/>
         <source>Confirm mode change</source>
-        <translation>Confirmar cambio de modo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="DialogConfirmMode.qml" line="17"/>
         <source>&lt;b&gt;&lt;i&gt;Changing the mode will end the current game.&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Continue?</source>
-        <translation>&lt;b&gt;&lt;i&gt;Cambiar el modo terminará la partida actual.&lt;/i&gt;&lt;/b&gt;&lt;br&gt;¿Continuar?</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DialogCustomMode</name>
     <message>
-        <location filename="DialogCustomMode.qml" line="17"/>
+        <location filename="DialogCustomMode.qml" line="16"/>
         <source>Custom mode</source>
-        <translation>Modo personalizado</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogCustomMode.qml" line="29"/>
+        <location filename="DialogCustomMode.qml" line="28"/>
         <source>Please enter the rows, columns and mines:</source>
-        <translation>Ingrese las filas, columnas y minas:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogCustomMode.qml" line="36"/>
+        <location filename="DialogCustomMode.qml" line="35"/>
         <source>Rows</source>
-        <translation>Filas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogCustomMode.qml" line="51"/>
-        <source>Columns</source>
-        <translation>Columnas</translation>
+        <location filename="DialogCustomMode.qml" line="50"/>
+        <source>columns</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogCustomMode.qml" line="66"/>
+        <location filename="DialogCustomMode.qml" line="64"/>
         <source>Mines</source>
-        <translation>Minas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogCustomMode.qml" line="82"/>
+        <location filename="DialogCustomMode.qml" line="80"/>
         <source>&lt;b&gt;&lt;i&gt;Changing the mode will end the current game.&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Continue?</source>
-        <translation>&lt;b&gt;&lt;i&gt;Cambiar el modo terminará la partida actual.&lt;/i&gt;&lt;/b&gt;&lt;br&gt;¿Continuar?</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>DialogInputRecord</name>
     <message>
-        <location filename="DialogInputRecord.qml" line="16"/>
+        <location filename="DialogInputRecord.qml" line="17"/>
         <source>CONGRATULATIONS!</source>
-        <translation>¡FELICIDADES!</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogInputRecord.qml" line="47"/>
+        <location filename="DialogInputRecord.qml" line="46"/>
         <source>&lt;b&gt;NEW RECORD!&lt;/b&gt;&lt;br&gt;</source>
-        <translation>&lt;b&gt;¡NUEVO RÉCORD!&lt;/b&gt;&lt;br&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogInputRecord.qml" line="74"/>
+        <location filename="DialogInputRecord.qml" line="73"/>
         <source>&lt;b&gt;Your score: </source>
-        <translation>&lt;b&gt;Tu récord: </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogInputRecord.qml" line="79"/>
+        <location filename="DialogInputRecord.qml" line="78"/>
         <source>Record: </source>
-        <translation>Récord: </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogInputRecord.qml" line="85"/>
+        <location filename="DialogInputRecord.qml" line="84"/>
         <source>Enter your name:</source>
-        <translation>Ingrese su nombre:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogInputRecord.qml" line="85"/>
+        <location filename="DialogInputRecord.qml" line="84"/>
         <source>&lt;b&gt;You have lost&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Has perdido&lt;/b&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogInputRecord.qml" line="94"/>
+        <location filename="DialogInputRecord.qml" line="93"/>
         <source>Name</source>
-        <translation>Nombre</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="DialogInputRecord.qml" line="113"/>
+        <location filename="DialogInputRecord.qml" line="112"/>
         <source>Remember this username</source>
-        <translation>Recordar este nombre de usuario</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -176,75 +177,75 @@
     <message>
         <location filename="DialogPause.qml" line="12"/>
         <source>PAUSED</source>
-        <translation>PAUSADO</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="DialogPause.qml" line="15"/>
         <source>Click anywhere to resume</source>
-        <translation>Click dondequiera para continuar</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>GameMenu</name>
     <message>
-        <location filename="GameMenu.qml" line="45"/>
+        <location filename="GameMenu.qml" line="44"/>
         <source>Play mode</source>
-        <translation>Modo de juego</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="GameMenu.qml" line="45"/>
+        <source>Beginner</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="46"/>
-        <source>Beginner</source>
-        <translation>Principiante</translation>
+        <source>Medium</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="47"/>
-        <source>Medium</source>
-        <translation>Intermedio</translation>
+        <source>Expert</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="48"/>
-        <source>Expert</source>
-        <translation>Experto</translation>
+        <source>Custom</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="49"/>
-        <source>Custom</source>
-        <translation>Personalizado</translation>
+        <source>Statistics</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="50"/>
-        <source>Statistics</source>
-        <translation>Estadísticas</translation>
+        <source>Scores</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="51"/>
-        <source>Scores</source>
-        <translation>Récords</translation>
+        <source>Settings</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="52"/>
-        <source>Settings</source>
-        <translation>Configuración</translation>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="53"/>
-        <source>Preferences</source>
-        <translation>Preferencias</translation>
+        <source>About</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="GameMenu.qml" line="54"/>
-        <source>About</source>
-        <translation>Acerca de</translation>
+        <location filename="GameMenu.qml" line="55"/>
+        <source>About Qt</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameMenu.qml" line="56"/>
-        <source>About Qt</source>
-        <translation>Acerca de Qt</translation>
-    </message>
-    <message>
-        <location filename="GameMenu.qml" line="57"/>
         <source>License</source>
-        <translation>Licencia</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -252,37 +253,37 @@
     <message>
         <location filename="GameToolbar.qml" line="29"/>
         <source>Open menu</source>
-        <translation>Abrir menú</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameToolbar.qml" line="43"/>
         <source>New game</source>
-        <translation>Nuevo juego</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameToolbar.qml" line="50"/>
         <source>Ctrl+N</source>
-        <translation>Ctrl+N</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameToolbar.qml" line="52"/>
         <source>Start a new game</source>
-        <translation>Inicia un nuevo juego</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameToolbar.qml" line="98"/>
         <source>Space</source>
-        <translation>Barra espaciadora</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameToolbar.qml" line="100"/>
         <source>Pause the game</source>
-        <translation>Pausa el juego</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="GameToolbar.qml" line="151"/>
         <source>Mines:</source>
-        <translation>Minas:</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -290,7 +291,7 @@
     <message>
         <location filename="License.qml" line="14"/>
         <source>License</source>
-        <translation>Licencia</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -299,18 +300,25 @@
         <location filename="LoadingSplash.qml" line="74"/>
         <source>Faculty of Engineering
 Automation and Biomedicine</source>
-        <translation>Facultad de Ingeniería
-Automática y Biomédica</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="LoadingSplash.qml" line="85"/>
-        <source>MinesSeeker</source>
-        <translation>Buscaminas</translation>
+        <source>MineSeeker</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="LoadingSplash.qml" line="103"/>
-        <source>Copyright © 2018 Carlos Enrique Pérez Sánchez.</source>
-        <translation></translation>
+        <source>Copyright (c) 2018 Carlos Enrique Perez Sanchez.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Main</name>
+    <message>
+        <location filename="Main.qml" line="15"/>
+        <source>Mines Seeker</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -318,42 +326,42 @@ Automática y Biomédica</translation>
     <message>
         <location filename="Preferences.qml" line="13"/>
         <source>Preferences </source>
-        <translation>Preferencias </translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Preferences.qml" line="56"/>
         <source>Volume settings</source>
-        <translation>Configuración de volumen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Preferences.qml" line="60"/>
         <source>Sound effects</source>
-        <translation>Efectos de sonido</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Preferences.qml" line="133"/>
         <source>Arcade</source>
-        <translation>Arcade</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Preferences.qml" line="137"/>
         <source>Reveal siblings with one left-click</source>
-        <translation>Revelar celdas adyacentes con un clic izquierdo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="UI/Preferences.qml" line="171"/>
+        <location filename="Preferences.qml" line="171"/>
         <source>First click never hits a mine</source>
-        <translation>Primer clic nunca es una mina</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Preferences.qml" line="171"/>
         <source>Totally random</source>
-        <translation>Totalmente aleatoria</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Preferences.qml" line="176"/>
         <source>Board generation</source>
-        <translation>Generación de board</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -362,43 +370,40 @@ Automática y Biomédica</translation>
         <location filename="main.cpp" line="60"/>
         <location filename="main.cpp" line="71"/>
         <source>MinesSeeker</source>
-        <translation>MinesSeeker</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="main.cpp" line="60"/>
         <source>An instance of MinesSeeker is already running.
 Close it in order to run a new one.</source>
-        <translation>Una instancia de MinesSeeker ya está en ejecución.
-Debes cerrarla para poder ejecutar una nueva.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="main.cpp" line="71"/>
         <source>Cannot create the folder:
 %1.
 Execute this application as root or create the folder manually.</source>
-        <translation>No se puede crear el directorio:
-%1.
-Ejecute esta aplicación como administrador o cree el directorio manualmente.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="main.cpp" line="127"/>
+        <location filename="main.cpp" line="123"/>
         <source>Loading fonts...</source>
-        <translation>Cargando fuentes...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="main.cpp" line="155"/>
+        <location filename="main.cpp" line="148"/>
         <source>Loading scores...</source>
-        <translation>Cargando récords...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="main.cpp" line="162"/>
+        <location filename="main.cpp" line="154"/>
         <source>Registering C++ types into QML engine...</source>
-        <translation>Registrando los tipos de C++ en QML...</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="main.cpp" line="176"/>
+        <location filename="main.cpp" line="166"/>
         <source>Loading UI...</source>
-        <translation>Cargando la interfaz de usuario...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -406,42 +411,42 @@ Ejecute esta aplicación como administrador o cree el directorio manualmente.</t
     <message>
         <location filename="RecordViewer.qml" line="6"/>
         <source>Scores</source>
-        <translation>Récords</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="RecordViewer.qml" line="22"/>
         <source>Confirm statistics full reset</source>
-        <translation>Confirmar borrado de estadísticas</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="RecordViewer.qml" line="25"/>
-        <source>Reset and clear &lt;b&gt;all&lt;/b&gt; &lt;u&gt;statistics&lt;/u&gt; and &lt;u&gt;scores&lt;/u&gt;?</source>
-        <translation>¿Borrar &lt;b&gt;todas&lt;/b&gt; las &lt;u&gt;estadísticas&lt;/u&gt; y &lt;u&gt;récords&lt;/u&gt;?</translation>
+        <source>Reset and clear &lt;b&gt;all&lt;/a&gt; &lt;u&gt;statistics&lt;/u&gt; and &lt;u&gt;&lt;scores&lt;/u&gt;?</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="RecordViewer.qml" line="43"/>
         <source>This operation cannot be undone.&lt;br&gt;It&apos;s permanent.&lt;br&gt;&lt;b&gt;&lt;i&gt;Reset anyway?&lt;/i&gt;&lt;/b&gt;</source>
-        <translation>Esta operación no se puede deshacer.&lt;br&gt;Es permanente e irreversible.&lt;br&gt;&lt;b&gt;&lt;i&gt;¿Borrar de todos modos?&lt;/i&gt;&lt;/b&gt;</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="RecordViewer.qml" line="78"/>
         <source>Beginner</source>
-        <translation>Principiante</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="RecordViewer.qml" line="87"/>
+        <location filename="RecordViewer.qml" line="88"/>
         <source>Medium</source>
-        <translation>Intermedio</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="RecordViewer.qml" line="96"/>
+        <location filename="RecordViewer.qml" line="98"/>
         <source>Expert</source>
-        <translation>Experto</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="RecordViewer.qml" line="105"/>
+        <location filename="RecordViewer.qml" line="108"/>
         <source>Custom</source>
-        <translation>Personalizado</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -449,15 +454,15 @@ Ejecute esta aplicación como administrador o cree el directorio manualmente.</t
     <message>
         <location filename="SavingPopup.qml" line="35"/>
         <source>Saving...</source>
-        <translation>Guardando...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>StartupProgress</name>
     <message>
-        <location filename="startupprogress.h" line="32"/>
+        <location filename="startupprogress.h" line="30"/>
         <source>Initializing...</source>
-        <translation>Inicializando...</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -465,30 +470,22 @@ Ejecute esta aplicación como administrador o cree el directorio manualmente.</t
     <message>
         <location filename="UIArcade.qml" line="18"/>
         <source>Beginner</source>
-        <translation>Principiante</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="UIArcade.qml" line="18"/>
         <source>Medium</source>
-        <translation>Intermedio</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="UIArcade.qml" line="18"/>
         <source>Expert</source>
-        <translation>Experto</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="UIArcade.qml" line="18"/>
         <source>Custom</source>
-        <translation>Personalizado</translation>
-    </message>
-</context>
-<context>
-    <name>Main</name>
-    <message>
-        <location filename="Main.qml" line="15"/>
-        <source>Mines Seeker</source>
-        <translation>Buscaminas</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

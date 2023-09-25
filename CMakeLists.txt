@@ -13,7 +13,7 @@ qt_add_executable(appmines-seeker
     main.cpp
 )
 if(Qt6LinguistTools_FOUND)
-    qt_add_translation(QM_FILES mines_es.ts)
+    qt_add_translation(QM_FILES mines_ko.ts)
     target_sources(appmines-seeker PRIVATE ${QM_FILES})
 endif()
 
@@ -42,6 +42,8 @@ qt_add_resources(appmines-seeker resources
     FILES images/appIcon.png images/Logo512_BG.png
     FILES ${FONT_FILES}
 )
+
+qt_add_lupdate(appmines-seeker TS_FILES mines_ko.ts)
 
 target_link_libraries(appmines-seeker
     PRIVATE Qt6::Widgets Qt6::Quick Qt6::Sql

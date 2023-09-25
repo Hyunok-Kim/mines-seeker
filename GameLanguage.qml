@@ -20,11 +20,11 @@ Menu {
 
     MenuItem {
         text: "Español"
-        icon.source: "images/Languages/es.svg"
+        icon.source: "images/Languages/ko.svg"
         icon.color: menuLanguage.iconColor
-        Material.foreground: settings.language === "es" ? Material.accent : menuLanguage.materialTextColor
+        Material.foreground: settings.language === "ko" ? Material.accent : menuLanguage.materialTextColor
         onClicked: {
-            settings.language = "es"
+            settings.language = "ko"
         }
     }
 }

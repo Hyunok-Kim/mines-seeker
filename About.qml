@@ -11,7 +11,7 @@ Dialog {
     modal: true
     implicitWidth: 420
     implicitHeight: parent.height * 0.9
-    title: qsTr("About ") + Qt.application.name
+    title: qsTr("About %1").arg(Qt.application.name)
     standardButtons: Dialog.Close
 
     onOpened:  {
